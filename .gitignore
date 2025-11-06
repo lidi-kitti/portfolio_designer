@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+index.html
+package.json
+vite.config.ts
+build/
