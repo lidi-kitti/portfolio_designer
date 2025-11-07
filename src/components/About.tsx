@@ -47,7 +47,7 @@ export function About() {
           >
             <div className="relative aspect-square rounded-2xl overflow-hidden shadow-lg">
               <ImageWithFallback
-                src="./069.png"
+                src="/069.png"
                 alt="Programming workspace"
                 className="w-full h-full object-cover"
               />

@@ -11,7 +11,7 @@ export function Projects() {
       {
         title: 'VTB API Hackathon 2025',
         description: 'Командная разработка веб-приложения',
-        image: './photo_hackathon.png',
+        image: '/photo_hackathon.png',
         link: 'https://www.figma.com/design/2z6hnvyrnjTYC3sC7L0y25/%D0%9E%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80-ux-ui?node-id=0-1&m=dev&t=eTr9FAQLMiH2IvGN-1',
         tags: ['React', 'Node.js', 'Design', 'Figma', 'UI/UX', 'Animation'],
       },
@@ -20,7 +20,7 @@ export function Projects() {
       {
         title: 'Лендинг стартапа',
         description: 'Современный одностраничник с анимациями',
-        image: './photo_landing.png',
+        image: '/photo_landing.png',
         link: 'https://www.figma.com/design/dE7XtLqgcDbVozIWqBy5pJ/%D0%9B%D1%8D%D0%BD%D0%B4%D0%B8%D0%BD%D0%B3-TAC-for-wb?node-id=0-1&m=dev&t=Lnzlvwvx9nVjqg8x-1',
         tags: ['Landing', 'Web Design', 'Responsive', 'Figma', 'UI/UX', 'Animation', 'Tilda'],
       },
@@ -30,7 +30,7 @@ export function Projects() {
       {
         title: 'Открытки и плакаты',
         description: 'Набор авторских  открыток и плакатов',
-        image: './055.png',
+        image: '/055.png',
         tags: ['Illustrator', 'Print', 'Greeting Cards', 'Behance', 'Figma', 'Design'],
         link: 'https://www.behance.net/cd97ae43',
       },

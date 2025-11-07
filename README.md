@@ -1,11 +1,98 @@
+# UX-UI Designer Portfolio
 
-  # UX-UI Designer Portfolio
+Современное портфолио UX/UI дизайнера, созданное с использованием React и Vite. Проект включает в себя анимации, адаптивный дизайн и интерактивные компоненты.
 
-  This is a code bundle for UX-UI Designer Portfolio. The original project is available at https://www.figma.com/design/ryxRBs2C7el6QqVNCefkp4/UX-UI-Designer-Portfolio.
 
-  ## Running the code
+## 🚀 Технологии
 
-  Run `npm i` to install the dependencies.
+- **React 18** - UI библиотека
+- **Vite** - Сборщик и dev-сервер
+- **TypeScript** - Типизация
+- **Tailwind CSS** - Стилизация
+- **Radix UI** - Компоненты интерфейса
+- **Motion** - Анимации
+- **EmailJS** - Отправка форм
 
-  Run `npm run dev` to start the development server.
-  
+## 📦 Установка
+
+```bash
+npm install
+```
+
+## 🛠️ Разработка
+
+Запуск dev-сервера:
+
+```bash
+npm run dev
+```
+
+Проект будет доступен по адресу `https://www.portfoliopresnukhina.ru/`
+
+## 🏗️ Сборка
+
+Сборка проекта для продакшена:
+
+```bash
+npm run build
+```
+
+Собранные файлы будут находиться в папке `build`.
+
+Предпросмотр сборки:
+
+```bash
+npm run preview
+```
+
+## 📁 Структура проекта
+
+```
+├── public/              # Статические файлы (изображения, иконки)
+├── src/
+│   ├── components/      # React компоненты
+│   │   ├── ui/         # UI компоненты (Radix UI)
+│   │   └── ...         # Основные компоненты
+│   ├── styles/         # Глобальные стили
+│   └── main.tsx        # Точка входа
+├── vercel.json         # Конфигурация Vercel
+├── vite.config.ts      # Конфигурация Vite
+└── package.json
+```
+
+## 📝 Важные замечания
+
+### Статические файлы
+
+Все статические файлы (изображения, иконки и т.д.) должны находиться в папке `public`. 
+
+Файлы из папки `public` автоматически копируются в корень папки `build` при сборке и доступны по абсолютным путям, начинающимся с `/`.
+
+**Пример:**
+- Файл: `public/photo.png`
+- Использование в коде: `src="/photo.png"` (не `./photo.png`)
+
+## 🚢 Деплой
+
+Подробные инструкции по деплою на различные платформы (Vercel, Netlify, GitHub Pages) находятся в файле [DEPLOY_INSTRUCTIONS.md](./DEPLOY_INSTRUCTIONS.md).
+
+### Быстрый деплой на Vercel
+
+1. Установите Vercel CLI:
+   ```bash
+   npm i -g vercel
+   ```
+
+2. Войдите в Vercel:
+   ```bash
+   vercel login
+   ```
+
+3. Задеплойте проект:
+   ```bash
+   vercel --prod
+   ```
+
+## 📄 Лицензия
+
+Проект создан для портфолио UX/UI дизайнера.
